@@ -42,7 +42,7 @@
 
 实现方式就是通过智能指针对new出来的实际对象的引用进行计数，自动对new出来的对象进行生命周期的管理和自动销毁。
 
-![智能指针](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.com智能指针.png)
+![](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.com智能指针时序图.png)
 
 #### Android智能指针原理
 
@@ -50,6 +50,7 @@
 - mRefs管理引用次数
 - sp是强引用
 - wp是弱引用
+- ![智能指针](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.com智能指针.png)
 
 #### 实际对象的引用状态
 
