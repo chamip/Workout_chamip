@@ -50,7 +50,7 @@ short[] getSamplesForChannel(MediaCodec codec, int bufferId, int channelIx) {
 
 从Android 5.0开始，首选的方法是调用configure之前通过设置回调异步地处理数据。异步模式稍微改变了状态转换方式，因为你必须在调用flush()方法后再调用start()方法才能使编解码器的状态转换为Running子状态并开始接收输入buffers。同样，初始调用start方法将编解码器的状态直接变化为Running子状态并通过回调方法开始传递可用的输入buufers。
 
-![缓存](/Users/chamip/Desktop/缓存.png)
+![](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.com缓存.png)
 
 **使用缓存的同步处理方式**
 

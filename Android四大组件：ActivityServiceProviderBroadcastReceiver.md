@@ -26,9 +26,9 @@ Activity是应用最直观的入口，一个应用可以没有其他组件，但
 
 生命周期：
 
-![生命周期](/Users/chamip/Desktop/生命周期.png)
+![](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.com生命周期.png)
 
-![生命周期1](/Users/chamip/Desktop/生命周期1.png)
+![](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.com生命周期1.png)
 
 方法有：onCreate()/onStart()/onResume()/onPause()/onStop()/onResta rt()/onDestroy()。
 
@@ -93,7 +93,7 @@ ntentService非常适合用于处理应用中的耗时任务，当然如果需�
 
 AMS是android中SystemServer进程中的一个线程，AMS是管理四大组件运行状态的系统服务线程。
 
-![ams](/Users/chamip/Desktop/ams.png)
+![](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.comams.png)
 
 **SystemServer进程启动AMS**
 
