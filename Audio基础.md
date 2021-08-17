@@ -51,9 +51,3 @@ Volume control
 新：ALSA（Advanced Linux Sound Architecture）
 
 
-
-![audio框架](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.comimagestypora.oss-cn-hangzhou.aliyuncs.comimage-20210817103651497.png)
-
-
-
-![audio框架结构](https://imagestypora.oss-cn-hangzhou.aliyuncs.com/imagestypora.oss-cn-hangzhou.aliyuncs.comimagestypora.oss-cn-hangzhou.aliyuncs.comimage-20210817103727491.png)
